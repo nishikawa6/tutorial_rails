@@ -12,3 +12,5 @@
  *
  */
 @import "bootstrap";
+@import "base"; // 作成したscssを読み込むように設定（どこで読み込むねん）
+@import "boards";
