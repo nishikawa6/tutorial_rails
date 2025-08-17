@@ -3,5 +3,6 @@ class BoardsController < ApplicationController
     end
 
     def new
+        @board = Board.new # 新しいBoardオブジェクトを作成. これを記述するとViewで使用可能になる。
     end
 end
